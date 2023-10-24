@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 300px;
+            width: 300px;
+            border: 1px solid;
+            display: flex;
+            background-color: gray;
+        }
+        .child{
+            height: 50px;
+            width: 50px;
+            border: 1px solid;
+            background-color: turquoise;
+        }
+        #parent1{
+          justify-content: start;  
+        }
+        #parent2{
+          justify-content: center;  
+        }
+        #parent3{
+          justify-content: end;  
+        }
+        #parent4{
+          justify-content: space-evenly;  
+        }
+        #parent5{
+          justify-content: space-between;  
+        }
+        #parent6{
+          justify-content: space-around;  
+        }
+    </style>
+</head>
+<body>
+    justify-content start
+    <div class="parent" id="parent1">
+        
+        <div class="child" id="child1">b1</div>
+        <div class="child" id="child2">b2</div>
+        <div class="child" id="child3">b3</div>
+    </div>
+    justify-content center
+    <div class="parent" id="parent2">
+        <div class="child" id="child1">b1</div>
+        <div class="child" id="child2">b2</div>
+        <div class="child" id="child3">b3</div>
+    </div>
+    justify-content end
+    <div class="parent" id="parent3">
+        <div class="child" id="child1">b1</div>
+        <div class="child" id="child2">b2</div>
+        <div class="child" id="child3">b3</div>
+    </div>
+    justify-content space-evenly
+    <div class="parent" id="parent4">
+        <div class="child" id="child1">b1</div>
+        <div class="child" id="child2">b2</div>
+        <div class="child" id="child3">b3</div>
+    </div>
+    justify-content space-between
+    <div class="parent" id="parent5">
+        <div class="child" id="child1">b1</div>
+        <div class="child" id="child2">b2</div>
+        <div class="child" id="child3">b3</div>
+    </div>
+    justify-content space-arround
+    <div class="parent" id="parent6">
+        <div class="child" id="child1">b1</div>
+        <div class="child" id="child2">b2</div>
+        <div class="child" id="child3">b3</div>
+    </div>
+</body>
+</html>

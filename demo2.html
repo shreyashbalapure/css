@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div>h2{}
+           #idparent>h2
+           div>idchild
+           #idparent>#idchild   <-- most convinent approach
+        */
+        #s2>#d1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="s1">
+        <h1>Lorem.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h2>Lorem, ipsum.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <!------------------------------------->
+    <div id="s2">
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet.
+        </p>
+        <h2 id="d1">Lorem, ipsum. nfhyysi</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .box{
+            height: 298px;
+            width: 200px;
+            border: 1px solid white; 
+          
+            background-color: aqua;
+            display: inline-block;
+            text-align: center;
+            line-height: 200px;
+            
+        }
+        #box2{
+            /* relative will take reference of previous location */
+            position: relative;
+            top: 300px;
+            left: 30px;
+        }
+        #box4{
+            /* absolute will take reference of parent always
+            thus the position is taken by next component */
+            position: absolute;
+            top: 300px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">box1</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box3">box3</div>
+    <div class="box" id="box4">box4</div>
+    <div class="box" id="box5">box5</div>
+</body>
+</html>

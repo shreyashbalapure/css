@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .scale{
+            height: 100px;
+            width: 100px;
+            margin: 100px auto;
+            text-align: center;
+            border: 1px solid;
+        }
+        #scaleY{
+            transform:scaleY(1.5)
+        }
+        #scaleX{
+            transform: scaleX(0.5)
+        }
+        #scaleZ{
+            transform: scaleZ(2);
+        }
+        #scale{
+            transform: scale(2);
+        }
+    </style>
+</head>
+<body>
+    <div class="scale" id="scaleY">scaleY</div>
+    <div class="scale" id="scaleX">scaleX</div>
+    <div class="scale" id="scaleZ">scaleZ</div>
+    <div class="scale" id="scale">scale(default - x,y,z)</div>
+</body>
+</html>

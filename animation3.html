@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .frame{
+            height: 300px;
+            width: 200px;
+            border: 1px solid;
+            margin: auto;
+            margin-top: 100px;
+            background-color: gray;
+            perspective: 100px;
+        }
+        .photo{
+            height: 298px;
+            width: 198px;
+            border: 1px solid;
+            background-image: url(./icon-g0343546dd_1280.png);
+            background-color: aqua;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation-name: photo;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            translate: 20px 40px;
+            
+            
+        }
+        @keyframes photo {
+            from{
+                transform: rotateX(0deg);
+            }
+            to{
+                transform: rotateX(360deg);
+                
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="photo"></div>
+    </div>
+</body>
+</html>

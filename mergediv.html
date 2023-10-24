@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        #parent{
+            height: 602px;
+            width: 602px;
+            border: 1px solid;
+            margin: 50px auto;
+        }
+        .child{
+            height: 600px;
+            width: 300px;
+            border: 1px solid;
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+        #child1{
+           background-color: aqua;
+           border-right: none;
+            
+        }
+        #child2{
+            margin-left: -4px;
+          border-left: none;
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child" id="child1"></div>
+        <div class="child" id="child2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, cum!</div>
+    </div>
+</body>
+</html>
